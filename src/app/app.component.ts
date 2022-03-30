@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
   titulo : string = 'IFSP - São Carlos';
-  mensagem : string = "Seja bem vindo a disciplina de PW1";
-  desenvolvedor : string = "Tiago";
+  mensagem : string = "Seja bem vindo a disciplina de TC2";
+  desenvolvedor : string = "Willian";
 }
